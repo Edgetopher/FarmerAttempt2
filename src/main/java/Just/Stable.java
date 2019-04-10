@@ -3,7 +3,6 @@ package Just;
 import Witch.Horse;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Stable {
 

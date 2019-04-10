@@ -4,6 +4,12 @@ import java.util.ArrayList;
 
 public class CropRow {
 
+    String name;
+
+    public CropRow(String name){
+        this.name = name;
+    }
+
     ArrayList<Crop> crops = new ArrayList<Crop>(5);
 
 

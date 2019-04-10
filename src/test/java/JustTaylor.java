@@ -1,3 +1,4 @@
+import Arod.Person;
 import Jesus.CropRow;
 import Just.Field;
 import org.junit.Assert;
@@ -77,6 +78,24 @@ public class JustTaylor {
     }
 
     //////////////Farmhouse Tests///////////////////////
+
+    public void addPeopleTest(){
+
+        Person taylor = new Person();
+        Person chris = new Person();
+        Person tshay = new Person();
+
+        ArrayList<Person> people = new ArrayList<Person>();
+        people.add(taylor);
+        people.add(chris);
+        people.add(tshay);
+
+        boolean x = false;
+
+        if(people.contains(taylor)&& people.contains(chris) && people.contains(tshay)) {
+            x = true;
+        }
+    }
 
 
 }

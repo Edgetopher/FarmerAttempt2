@@ -3,7 +3,6 @@ package Just;
 import Arod.Person;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Farmhouse {
 
