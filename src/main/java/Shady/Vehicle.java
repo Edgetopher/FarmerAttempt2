@@ -1,4 +1,4 @@
 package Shady;
 
-public class Vehicle {
+public abstract class Vehicle {
 }

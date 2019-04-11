@@ -3,13 +3,14 @@ package Just;
 import Jesus.CropRow;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class Field {
 
-    private ArrayList<CropRow> cropRows = new ArrayList<CropRow>();
+    private LinkedList<CropRow> cropRows = new LinkedList<CropRow>();
     int numOfRows = cropRows.size();
 
-    public Field(ArrayList<CropRow> cropRows){
+    public Field(LinkedList<CropRow> cropRows){
         this.cropRows = cropRows;
     }
 

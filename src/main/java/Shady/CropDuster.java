@@ -1,4 +1,4 @@
 package Shady;
 
-public class CropDuster {
+public class CropDuster extends AirCraft {
 }

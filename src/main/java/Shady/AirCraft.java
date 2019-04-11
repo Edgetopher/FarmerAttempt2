@@ -1,4 +1,4 @@
 package Shady;
 
-public class AirCraft {
+public class AirCraft extends Vehicle  {
 }
