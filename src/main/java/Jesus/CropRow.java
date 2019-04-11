@@ -2,7 +2,9 @@ package Jesus;
 
 import java.util.ArrayList;
 
-public class CropRow {
+public class CropRow extends Crop {
+
+
 
     ArrayList<Crop> crops = new ArrayList<Crop>(5);
 

@@ -1,4 +1,4 @@
 package Jesus;
 
-public class Tomato {
+public class Tomato extends Crop{
 }

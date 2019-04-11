@@ -1,4 +1,4 @@
 package Shady;
 
-public class Tractor {
+public class Tractor extends FarmVehicle {
 }
